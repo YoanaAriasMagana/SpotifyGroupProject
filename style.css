@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  width: 100%;
+background-color: black;
+  text-align: center;
+}
+.button {
+  border: none;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+header {
+color:white;
+font-family: "Archivo", sans-serif;
+font-size: 45px;
+  text-align: center;
+
+  
+}
+
+.mix {
+  padding: 0 3em;
+  margin: 0;
+  list-style: none;
+  border: 3px solid #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.total {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  padding-bottom: 1em;
+}
+.mix .song {
+  padding: 0.5em;
+  margin: 0.75em 0;
+  font-size: 1.25em;
+}
+
+.mix .song-number {
+  display: inline-block;
+  padding: 0.45em;
+  margin-right: 0.25em;
+  background-color: #9634ff;
+}
+
+button.show-list {
+  margin: 2em 0;
+  width: 50%;
+  padding: 1em;
+  color: green;
+  font-size: 1.25em;
+  align-self: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 700px;
+}
